@@ -48,6 +48,3 @@ def leet_converter(s: str) -> str:
             case _:
                 new_s = new_s + letter
     return new_s
-
-
-print(leet_converter("Gabriel Sampson"))
