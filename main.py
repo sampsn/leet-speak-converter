@@ -13,7 +13,7 @@
 # Create a function convert(text: str) -> str that accepts a string, converts the string to leet speak using the conversion table above, and returns the converted string. No other changes should be made to the string.
 
 
-def leet_converter(s: str) -> str:
+def convert(s: str) -> str:
     new_s = ""
     for letter in s:
         match letter:
